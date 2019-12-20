@@ -1,7 +1,7 @@
 # Kafka Bitnami
 
 ## Create kafka instancie
-docker-compose up -d -f docker-compose.yml
+docker-compose -f docker-compose.yml up -d 
 
 ## Create kafka cluster
-docker-compose up -d -f docker-compose-cluster.yml
+docker-compose -f docker-compose-cluster.yml up -d
